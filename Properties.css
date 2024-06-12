@@ -1,0 +1,649 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        .navbar1 {
+            height: 40px;
+            width: 100%;
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+        }
+        
+        .fa-brands {
+            height: 20px;
+            width: 1%;
+            display: flex;
+            margin-left: 25px;
+            color: black;
+        }
+        
+        #_1 {
+            margin-left: 50px;
+            margin-right: 5px;
+            padding: 10px;
+            color: rgb(255, 94, 0);
+        }
+        
+        #_2 {
+            margin-left: 50px;
+            margin-right: 5px;
+            padding: 10px;
+            color: rgb(255, 94, 0);
+        }
+        
+        #_3 {
+            margin-left: 50%;
+        }
+        
+        .name {
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: rgb(255, 94, 0);
+            /* position: sticky; */
+        }
+        
+        #name {
+            margin-left: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .A_tag {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10%;
+            font-weight: bold;
+        }
+        
+        #_4 {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+            color: white;
+            background-color: black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #_5 {
+            height: 40px;
+            width: 15%;
+            background-color: white;
+            border-radius: 50px;
+            margin-left: 5%;
+            display: flex;
+            align-items: center;
+        }
+        /* -------------------------------------- */
+        
+        .image {
+            height: 350px;
+            width: 100%;
+        }
+        
+        .image img {
+            height: 350px;
+            width: 100%;
+            filter: brightness(20%);
+        }
+        
+        .para1 {
+            height: 50px;
+            width: 15%;
+            background-color: white;
+            position: absolute;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            margin-top: -18%;
+            margin-left: 40%;
+        }
+        
+        .heading1 {
+            height: 50px;
+            width: 15%;
+            position: absolute;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            margin-top: -12%;
+            margin-left: 40%;
+            font-size: 46px;
+            font-weight: bolder;
+        }
+        /* --------------------------- */
+        
+        .div-button {
+            height: 250px;
+            width: 100%;
+            background-color: white;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .div-button button {
+            height: 45px;
+            width: 10%;
+            float: left;
+            background-color: black;
+            color: white;
+            margin-left: 2%;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .div-button button:hover {
+            color: rgb(255, 94, 0);
+        }
+        
+        #button2 {
+            background-color: rgb(255, 94, 0);
+            color: white;
+        }
+        /* ------------------------------ */
+        
+        ._11 {
+            height: 1100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            background-color: white;
+        }
+        
+        ._11-1 span {
+            height: 26px;
+            color: rgb(255, 94, 0);
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: right;
+            margin-top: 10px;
+            
+        }
+        
+        .card1,
+        .card2,
+        .card3,
+        .card4,
+        .card5,
+        .card6 {
+            height: 500px;
+            width: 30%;
+            background-color: whitesmoke;
+            float: left;
+            margin-left: 2.5%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 2%;
+        }
+        
+        .card1-image {
+            height: 243px;
+            width: 100%;
+            display: flex;
+            border-radius: 10px;
+        }
+        
+        .card1 img,
+        .card2 img,
+        .card3 img,
+        .card4 img,
+        .card5 img,
+        .card6 img {
+            border-radius: 10px;
+            width: 100%;
+            margin: 25px;
+        }
+        
+        .card1-text1 {
+            height: 250px;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        ._p {
+            height: 30px;
+            width: 30%;
+            margin-top: -35px;
+            background-color: rgb(248, 187, 152);
+            align-items: center;
+            justify-content: center;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+        
+        .text3 {
+            height: 30px;
+            width: 35%;
+            margin-top: -35px;
+            background-color: rgb(248, 187, 152);
+            align-items: center;
+            justify-content: center;
+            padding-left: 50px;
+            border-radius: 5px;
+        }
+        
+        .text2 {
+            height: 10px;
+            width: 100%;
+            float: left;
+        }
+        
+        .text2 p {
+            padding-top: -20px;
+        }
+        
+        .card1-text1 span {
+            margin-top: -25px;
+            margin-left: 80px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .card1 p,
+        .card2 p,
+        .card3 p,
+        .card4 p,
+        .card5 p,
+        .card6 p {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+        
+        .card1 h3,
+        .card2 h3,
+        .card3 h3,
+        .card4 h3,
+        .card5 h3,
+        .card6 h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            display: flex;
+            width: 100%;
+        }
+        
+        .card1 button,
+        .card2 button,
+        .card3 button,
+        .card4 button,
+        .card5 button,
+        .card6 button {
+            height: 40px;
+            width: 40%;
+            padding: 10px;
+            background-color: #1E1E1E;
+            color: white;
+            border: none;
+            border-radius: 40px;
+            margin-top: 40px;
+            margin-left: 30%;
+            font-size: medium;
+            cursor: pointer;
+        }
+        
+        .card1 button:hover,
+        .card2 button:hover,
+        .card3 button:hover,
+        .card4 button:hover,
+        .card5 button:hover,
+        .card6 button:hover {
+            background-color: rgb(255, 94, 0);
+        }
+        /* ------------------------------------- */
+        
+        .button-2 {
+            height: 200px;
+            width: 100%;
+            background-color: white;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .button-2 .sub-button1,
+        .sub-button2,
+        .sub-button3,
+        .sub-button4 {
+            height: 46px;
+            width: 3%;
+            background-color: #1E1E1E;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .sub-button1:hover,
+        .sub-button3:hover,
+        .sub-button4:hover {
+            background-color: rgb(255, 94, 0);
+        }
+        
+        .sub-button2 {
+            background-color: rgb(255, 94, 0);
+            color: white;
+        }
+        /* -------------------------------------- */
+        
+        footer {
+            height: 100px;
+            width: 100%;
+            display: block;
+            background-color: #1E1E1E;
+            margin-top: auto;
+            float: left;
+            color: #FAFAFA;
+            font-size: 18px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
+        }
+    /* ---------------------------------------------------------------------------------------- */
+    /* ----------------------------------  media query ---------------------------------------  */
+    /* ---------------------------------------------------------------------------------------- */
+    
+    @media screen And (max-width:767px) {
+    .navbar1 {
+        height: 30px;
+        width: 100%;
+        font-size: 12px;
+       
+    }
+    
+    .fa-brands {
+        height: 5%;
+        width: 5%;
+        margin-left: 0.5%;
+    }
+    
+    #_1 {
+        
+        margin-right: 0.5%;
+        padding: 1%;
+    }
+    
+    #_2 {
+       
+        margin-right: 1%;
+        padding: 1%;
+    }
+    
+    #_3 {
+        margin-left: 1%;
+    }
+    /* -------------------------------- nav 2--------------------------------- */
+    
+    .name {
+        height: 56%;
+        width: 100%;
+    }
+    
+    #name {
+        margin-left: 0.5%;
+        font-size: 22px;
+        padding: 4px;
+    }
+    
+    .A_tag {
+        height: 100%;
+        width: 100%;
+        font-size: 8px;
+    }
+    
+    a {
+        margin-left: 4%;
+    }
+    
+    #_4 {
+        height: 18px;
+        width: 35%;
+        padding: 3px;
+        padding-right: 5px;
+    }
+    
+    #_5 {
+        height: 18px;
+        width: 20%;
+        margin-left: 5%;
+        padding-right: 1%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        
+    }
+      /* --------------------------------centered image------------------------- */
+
+        .image {
+            height: 250px;
+            width: 100%;
+        }
+        
+        .image img {
+            height: 250px;
+            width: 100%;
+        }
+        
+        .para1 {
+            height: 30px;
+            width: 32%;
+            margin-top: -50%;
+            margin-left: 30%;
+            font-size: 12px;
+        }
+        
+        .heading1 {
+            height: 40px;
+            width: 15%;
+            position: absolute;
+            margin-top: -38%;
+            margin-left: 40%;
+            font-size: 26px;
+        }
+    /* ---------------------------------- buttons ------------------------------------------- */
+     .div-button {
+            height: 150px;
+            width: 100%;
+        }
+        
+        .div-button button {
+            height: 34px;
+            width: 100%;
+            font-size: 12px;
+            padding: 4px;
+        }
+        /* ------------------------------------- cards ----------------------------------------- */
+    ._11 {
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        background-color: white;
+        margin-top: 220%;
+    }   
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        height: 500px;
+        width: 100%;
+        margin-left: 0.5%;
+        margin-bottom: 2%;
+    }
+    
+    .card1-image {
+        height: 243px;
+        width: 100%;
+        display: flex;
+        border-radius: 10px;
+    }
+    
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img,
+    .card6 img {
+        border-radius: 10px;
+        width: 100%;
+        margin: 25px;
+    }
+    
+    .card1-text1 {
+        height: 250px;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    ._p {
+        height: 30px;
+        width: 30%;
+        margin-top: -35px;
+        background-color: rgb(248, 187, 152);
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+    
+    .text3 {
+        height: 30px;
+        width: 35%;
+        margin-top: -35px;
+        background-color: rgb(248, 187, 152);
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px;
+        border-radius: 5px;
+    }
+    
+    .text2 {
+        height: 10px;
+        width: 100%;
+        float: left;
+    }
+    
+    .text2 p {
+        padding-top: -20px;
+    }
+    
+    .card1-text1 span {
+        margin-top: -25px;
+        margin-left: 80px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .card1 h3,
+    .card2 h3,
+    .card3 h3,
+    .card4 h3,
+    .card5 h3,
+    .card6 h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    .card1 button,
+    .card2 button,
+    .card3 button,
+    .card4 button,
+    .card5 button,
+    .card6 button {
+        height: 40px;
+        width: 40%;
+        padding: 10px;
+        background-color: #1E1E1E;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        margin-top: 40px;
+        margin-left: 30%;
+        font-size: medium;
+        cursor: pointer;
+    }
+    
+    .card1 button:hover,
+    .card2 button:hover,
+    .card3 button:hover,
+    .card4 button:hover,
+    .card5 button:hover,
+    .card6 button:hover {
+        background-color: rgb(255, 94, 0);
+    }
+    /* ------------------------------ */
+           .button-2 {
+            height: 200px;
+            width: 100%;
+            margin-top: 220%;
+          
+        }
+        
+        .button-2 .sub-button1,
+        .sub-button2,
+        .sub-button3,
+        .sub-button4 {
+            height: 38px;
+            width: 10%;
+            margin-right: 15px;
+        }
+        /* --------------------footer------------------ */
+        footer {
+        height: 50px;
+        width: 100%;
+        font-size: 10px;
+    }
+}
